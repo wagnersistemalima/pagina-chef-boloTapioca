@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+    
+}
+
+/* Header */
+
+.main-navbar {
+    height: 70px;
+    width: 100%;
+    background-color: #DA5C5C;
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav h1 {
+    color: white;
+    font-size: 1em;
+}
+
+/* main */
+
+main {
+    background-color: white;
+    width: 100%;
+    padding-top: 150px;
+    margin-left: 5px;  
+    
+}
+
+main img {
+    width: 100%;
+    max-width: 200px;
+}
+
+main footer h1 h2 h3 {
+    font-size: 1em;
+}
+
+/* footer */
+
+footer {
+    background-color: #DA5C5C;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    border: 2px solid gray;
+    padding: 5px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+footer h2 {
+    color: white;
+    
+}
+
+iframe {
+    width: 100%;
+    height: 20vh;
+}
+
+img.chat {
+    width: 50px;
+    max-width: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+/* responsividade */
+
+@media (max-width:1080px ) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media(max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media(max-width: 320px) {
+    html {
+        font-size: 77.5%;
+    }
+}
+
